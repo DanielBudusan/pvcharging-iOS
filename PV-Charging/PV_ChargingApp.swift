@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct PV_ChargingApp: App {
+    @StateObject var restServices = RestServices()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(restServices)
         }
     }
 }

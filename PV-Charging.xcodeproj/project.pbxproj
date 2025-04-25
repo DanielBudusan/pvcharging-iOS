@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C6F42762C2ADC9E002C4D38 /* RestServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6F42752C2ADC9E002C4D38 /* RestServices.swift */; };
+		9C7856292C259B7C00703EB2 /* LoginVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7856282C259B7C00703EB2 /* LoginVIew.swift */; };
+		9C88FFD92C450F8300D82C16 /* TeslaRestServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C88FFD82C450F8300D82C16 /* TeslaRestServices.swift */; };
 		9CBC685A2C21AA6300D292FF /* PV_ChargingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBC68592C21AA6300D292FF /* PV_ChargingApp.swift */; };
 		9CBC685C2C21AA6300D292FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBC685B2C21AA6300D292FF /* ContentView.swift */; };
 		9CBC685E2C21AA6400D292FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CBC685D2C21AA6400D292FF /* Assets.xcassets */; };
@@ -14,11 +17,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C6F42752C2ADC9E002C4D38 /* RestServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestServices.swift; sourceTree = "<group>"; };
+		9C7856282C259B7C00703EB2 /* LoginVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVIew.swift; sourceTree = "<group>"; };
+		9C88FFD82C450F8300D82C16 /* TeslaRestServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeslaRestServices.swift; sourceTree = "<group>"; };
 		9CBC68562C21AA6300D292FF /* PV-Charging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PV-Charging.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CBC68592C21AA6300D292FF /* PV_ChargingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PV_ChargingApp.swift; sourceTree = "<group>"; };
 		9CBC685B2C21AA6300D292FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9CBC685D2C21AA6400D292FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CBC68602C21AA6400D292FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9CBC68672C21ADD800D292FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +58,12 @@
 		9CBC68582C21AA6300D292FF /* PV-Charging */ = {
 			isa = PBXGroup;
 			children = (
+				9CBC68672C21ADD800D292FF /* Info.plist */,
 				9CBC68592C21AA6300D292FF /* PV_ChargingApp.swift */,
 				9CBC685B2C21AA6300D292FF /* ContentView.swift */,
+				9C6F42752C2ADC9E002C4D38 /* RestServices.swift */,
+				9C88FFD82C450F8300D82C16 /* TeslaRestServices.swift */,
+				9C7856282C259B7C00703EB2 /* LoginVIew.swift */,
 				9CBC685D2C21AA6400D292FF /* Assets.xcassets */,
 				9CBC685F2C21AA6400D292FF /* Preview Content */,
 			);
@@ -137,8 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C7856292C259B7C00703EB2 /* LoginVIew.swift in Sources */,
 				9CBC685C2C21AA6300D292FF /* ContentView.swift in Sources */,
 				9CBC685A2C21AA6300D292FF /* PV_ChargingApp.swift in Sources */,
+				9C88FFD92C450F8300D82C16 /* TeslaRestServices.swift in Sources */,
+				9C6F42762C2ADC9E002C4D38 /* RestServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +288,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"PV-Charging/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PV-Charging/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +317,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"PV-Charging/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PV-Charging/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
